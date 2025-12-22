@@ -1,0 +1,57 @@
+# 👥 CODEOWNERS
+# Define individuals or teams responsible for code in the repository.
+# Learn more: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# ⚠️  SETUP REQUIRED - Follow these steps after forking this template:
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# 1. Uncomment the ownership rules below (remove the # at the start)
+# 2. Replace @YOUR_GITHUB_USERNAME with your actual GitHub username or team
+# 3. Commit this file to your default branch
+# 4. GitHub will automatically request reviews from owners when matching
+#    files are modified in a pull request
+#
+# NOTE: Rules are commented out by default to prevent GitHub errors when
+#       the placeholder username doesn't exist.
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ─────────────────────────────────────────────────────────
+# DEFAULT OWNERSHIP (uncomment and customize)
+# ─────────────────────────────────────────────────────────
+
+# Default owners for everything in the repo
+# * @YOUR_GITHUB_USERNAME
+
+# ─────────────────────────────────────────────────────────
+# FILE-SPECIFIC OWNERSHIP (uncomment and customize)
+# ─────────────────────────────────────────────────────────
+
+# Documentation files
+# *.md @YOUR_GITHUB_USERNAME
+# /docs/ @YOUR_GITHUB_USERNAME
+
+# GitHub configuration files
+# /.github/ @YOUR_GITHUB_USERNAME
+
+# ─────────────────────────────────────────────────────────
+# EXAMPLES - Common patterns for your reference
+# ─────────────────────────────────────────────────────────
+
+# Team ownership by directory:
+# /src/ @your-org/developers
+# /tests/ @your-org/qa-team
+
+# Language-specific ownership:
+# *.py @your-org/python-team
+# *.js *.ts @your-org/frontend-team
+# *.go @your-org/backend-team
+
+# Critical files requiring multiple reviewers:
+# SECURITY.md @your-org/security-team @your-org/maintainers
+# LICENSE @your-org/legal
+
+# Infrastructure and DevOps:
+# Dockerfile @your-org/devops
+# *.yml @your-org/devops
+# /deploy/ @your-org/devops

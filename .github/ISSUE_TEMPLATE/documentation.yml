@@ -1,0 +1,70 @@
+name: 📚 Documentation Issue
+description: Report missing, incorrect, or unclear documentation
+title: "[DOCS] "
+labels: ["documentation", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us improve the documentation! Please describe the issue below.
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: Documentation Location
+      description: Where is the documentation issue?
+      options:
+        - README.md
+        - README.zh-TW.md
+        - CONTRIBUTING.md
+        - docs/GETTING_STARTED.md
+        - docs/README.md
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Specific URL or File Path
+      description: Link or path to the problematic documentation
+      placeholder: "e.g., docs/GETTING_STARTED.md#installation"
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      options:
+        - Missing documentation
+        - Incorrect information
+        - Outdated content
+        - Unclear/confusing explanation
+        - Typo/grammar error
+        - Broken link
+        - Missing example
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the documentation issue
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Fix
+      description: How should the documentation be improved?
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have checked for existing documentation issues
+          required: true
+        - label: I am willing to help improve the documentation

@@ -1,0 +1,160 @@
+# 🚀 Getting Started
+
+Welcome to **Project Name**! This guide will help you get up and running quickly.
+
+> **Note**: This is a template file. Replace the placeholder content with your project's actual setup instructions.
+
+## 🔧 Template Customization Checklist
+
+After forking this template, update these files with your project information:
+
+### Required Updates
+
+| File | What to Update |
+|------|----------------|
+| `README.md` | Project name, description, badges, links |
+| `README.zh-TW.md` | Same as above (Traditional Chinese) |
+| `docs/docusaurus.config.js` | `title`, `url`, `organizationName`, `projectName` |
+| `SECURITY.md` | Contact email for security reports |
+| `CODE_OF_CONDUCT.md` | Contact email |
+| `.github/CODEOWNERS` | Uncomment rules, add your GitHub username |
+| `package.json` (in docs/) | `name`, `author`, `repository` |
+
+### GitHub Configuration
+
+| File | What to Update |
+|------|----------------|
+| `.github/FUNDING.yml` | Your sponsorship links |
+| `.github/ISSUE_TEMPLATE/config.yml` | Discussion and email URLs |
+
+### Optional Updates
+
+| File | What to Update |
+|------|----------------|
+| `LICENSE` | Choose your license (currently GPL-3.0) |
+| `images/logo.png` | Replace with your project logo |
+| `CHANGELOG.md` | Start fresh with your version history |
+| `docs/static/img/` | Replace Docusaurus images |
+
+### Quick Search & Replace
+
+Use your editor's find/replace to update:
+
+| Find | Replace With |
+|------|--------------|
+| `leonwong282` | Your GitHub username |
+| `awesome-project-template` | Your project name |
+| `leonwong282@gmail.com` | Your email |
+| `Leon Wong` | Your name |
+
+---
+
+## 📋 Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+<!-- Customize this list based on your project's requirements -->
+
+- **Git** - [Download here](https://git-scm.com/)
+- **Your runtime** (e.g., Node.js, Python, Go) - Add link
+- **Your package manager** (e.g., npm, pip, cargo) - Add link
+
+## 🔧 Installation
+
+### 1. Clone the Repository
+
+```bash
+# Using HTTPS
+git clone https://github.com/YOUR_USERNAME/YOUR_PROJECT.git
+
+# Using SSH
+git clone git@github.com:YOUR_USERNAME/YOUR_PROJECT.git
+
+cd YOUR_PROJECT
+```
+
+### 2. Install Dependencies
+
+```bash
+# Add your dependency installation command
+# Examples:
+# npm install
+# pip install -r requirements.txt
+# go mod download
+```
+
+### 3. Configuration
+
+```bash
+# Add your configuration steps
+# Example:
+# cp .env.example .env
+# Edit .env with your settings
+```
+
+### 4. Run the Project
+
+```bash
+# Add your run command
+# Examples:
+# npm run dev
+# python main.py
+# go run main.go
+```
+
+## 📁 Project Structure
+
+<!-- Update this to match your actual project structure -->
+
+```
+your-project/
+├── src/                 # Source code
+├── tests/               # Test files
+├── docs/                # Documentation
+├── .github/             # GitHub configuration
+├── .env.example         # Environment template
+└── README.md            # Project overview
+```
+
+## 🚀 Common Commands
+
+<!-- Add your project's common commands -->
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run test` | Run tests |
+| `npm run lint` | Lint code |
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+<!-- Add common issues users might encounter -->
+
+**Issue**: Description of the problem
+```bash
+Error message example
+```
+**Solution**: How to fix it
+
+## 🔍 Next Steps
+
+1. **Read the documentation** - Check the [docs](./README.md) folder
+2. **Run tests** - Verify everything works
+3. **Start building** - Begin developing your features
+4. **Contribute** - See [Contributing Guide](../reference/contributing.md)
+
+## 💬 Getting Help
+
+- 📝 [Open an issue](https://github.com/YOUR_USERNAME/YOUR_PROJECT/issues)
+- 💬 [Start a discussion](https://github.com/YOUR_USERNAME/YOUR_PROJECT/discussions)
+
+---
+
+<div align="center">
+
+**Happy coding! 🎉**
+
+</div>
